@@ -1,0 +1,23 @@
+{
+  "name": "tdd-password-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "test": "node ./test/test.js",
+    "tdd": "nodemon ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmarinmendez/tdd-password-checker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexmarinmendez/tdd-password-checker/issues"
+  },
+  "homepage": "https://github.com/alexmarinmendez/tdd-password-checker#readme"
+}
