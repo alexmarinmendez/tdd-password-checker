@@ -1,5 +1,12 @@
 export class PasswordChecker {
+    #pwd
+
+    constructor(pwd) {
+        this.#pwd = pwd
+    }
+
     hasUpperCase() {
-        return true
+        if (this.#pwd === this.#pwd.toUpperCase()) return true
+        return false
     }
 }
