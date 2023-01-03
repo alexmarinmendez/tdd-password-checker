@@ -6,7 +6,13 @@ export class PasswordChecker {
     }
 
     hasUpperCase() {
-        if (this.#pwd === this.#pwd.toUpperCase()) return true
-        return false
+        let result = false
+        for (let i=0; i < this.#pwd.length; i++) {
+            if (this.#pwd[i] === this.#pwd[i].toUpperCase()) {
+                result = true
+                break
+            }
+        }
+        return result
     }
 }
